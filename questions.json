@@ -1,0 +1,27 @@
+{
+    "p":{
+        "1":"¿Cuál es el nombre de la obra donde aparece harry Potter?",
+        "2":"¿Cuál es la capital de Australia?",
+        "3":"¿Quién es conocido como el padre de la informática?"
+    },
+    "r":{
+        "1":{
+            "1":"Harry Potter",
+            "2":"Ninty",
+            "3":"Magic and Muscle",
+            "correct":"Harry Potter"
+        },
+        "2":{
+            "1":"Sydney",
+            "2":"Melbourne",
+            "3":"Canberra",
+            "correct":"Canberra"
+        },
+        "3":{
+            "1":"Bill Gates",
+            "2":"Charles Babbage",
+            "3":"Steve Jobs",
+            "correct":"Charles Babbage"
+        }
+    }
+}
