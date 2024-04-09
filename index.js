@@ -29,7 +29,7 @@ function readResponse(){
         if(data_question["r"][index_p][i] == undefined){
             break;
         }
-        Resp = Resp + data_question["r"][index_p][i] + "\n";
+        Resp = Resp + i + ". " + data_question["r"][index_p][i] + "\n";
     }
     return Resp;
 }
