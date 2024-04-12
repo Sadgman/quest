@@ -20,6 +20,7 @@ function newIndexP(){
     if(ListOfQuestResp.length === 5){
         ListOfQuestResp = [];
     }
+    return index_p;
 }
 
 function readTitle(){
