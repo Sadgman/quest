@@ -22,10 +22,17 @@ function newIndexP(){
     }
     return index_p;
 }
-
+/**
+ * 
+ * @returns devuelve el titulo de la pregunta
+ */
 function readTitle(){
     return data_question["p"][index_p];
 }
+/**
+ * 
+ * @returns devuelve las respuestas de la pregunta
+ */
 function readResponse(){
     let Resp = "";
     for(let i = 1; i <= Object.keys(data_question["r"][index_p]).length; i++){
@@ -36,6 +43,10 @@ function readResponse(){
     }
     return Resp;
 }
+/**
+ * 
+ * @returns devuelve el indice de la respuesta correcta
+ */
 function correctAnswerIndex(){
     for(let i = 1; i <= Object.keys(data_question["r"][index_p]).length; i++){
         if(data_question["r"][index_p][i] == undefined){
@@ -46,11 +57,11 @@ function correctAnswerIndex(){
         }
     }
 }
-function isCorrect(resp){
 /**
  * @param {string} resp
  * @return {boolean}
  */
+function isCorrect(resp){
     if(typeof resp === "string"){
         if(resp === data_question["r"][index_p]["correct"]){
             return true;
@@ -65,9 +76,17 @@ function isCorrect(resp){
         }
     }
 }
+/**
+ * @returns devuelve la respuesta correcta
+ */
 function correctAnswer(){
     return data_question["r"][index_p]["correct"];
 }
+/**
+ * @param {number} indexp
+ * @param {number} index
+ * @returns devuelve la respuesta correcta seleccionada
+ */
 function correctAnswerselected(indexp, index){
     return data_question["r"][indexp][index];
 }
