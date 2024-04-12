@@ -68,4 +68,7 @@ function isCorrect(resp){
 function correctAnswer(){
     return data_question["r"][index_p]["correct"];
 }
-module.exports = {readTitle, readResponse, correctAnswer, correctAnswerIndex, newIndexP, isCorrect};
+function correctAnswerselected(indexp, index){
+    return data_question["r"][indexp][index];
+}
+module.exports = {readTitle, readResponse, correctAnswer, correctAnswerIndex, newIndexP, isCorrect, correctAnswerselected};
