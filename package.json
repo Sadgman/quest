@@ -1,6 +1,6 @@
 {
   "name": "preguntas",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Este paquete proporciona una funcionalidad única para generar índices aleatorios para preguntas y respuestas basadas en un conjunto de datos predefinido. Evita la repetición de las últimas cuatro preguntas y reinicia la lista después de cinco preguntas. También incluye funciones para leer el título y la respuesta de la pregunta actual. Ideal para aplicaciones de cuestionarios o juegos de trivia.",
   "main": "index.js",
   "scripts": {
