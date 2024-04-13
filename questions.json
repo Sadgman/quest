@@ -9,7 +9,47 @@
         "7": "¿En qué año comenzó la Segunda Guerra Mundial?",
         "8": "¿Cuál es el planeta más grande del sistema solar?",
         "9": "¿Cuál es el río más largo del mundo?",
-        "10": "¿Quién pintó la Mona Lisa?"
+        "10": "¿Quién pintó la Mona Lisa?",
+        "11": "¿Quién escribió la novela '1984'?",
+        "12": "¿Cuál es el animal terrestre más grande del mundo?",
+        "13": "¿En qué año llegó el hombre a la luna por primera vez?",
+        "14": "¿Quién fue el primer presidente de los Estados Unidos?",
+        "15": "¿Cuál es el elemento químico más ligero?",
+        "16": "¿Quién fue el líder de la Revolución Rusa de 1917?",
+        "17": "¿En qué año se inauguró el Canal de Panamá?",
+        "18": "¿Cuál es la montaña más alta del mundo?",
+        "19": "¿Quién pintó 'La noche estrellada'?",
+        "20": "¿Cuál es el país más poblado del mundo?",
+        "21": "¿Qué famoso científico formuló la teoría de la relatividad?",
+        "22": "¿En qué año cayó el Muro de Berlín?",
+        "23": "¿Cuál es el país más extenso del mundo?",
+        "24": "¿Quién fue el primer hombre en pisar la cima del Monte Everest?",
+        "25": "¿En qué año se firmó la Declaración de Independencia de los Estados Unidos?",
+        "26": "¿Cuál es el animal más rápido del mundo?",
+        "27": "¿Qué famoso inventor patentó la bombilla eléctrica?",
+        "28": "¿En qué año se fundó la Organización de las Naciones Unidas (ONU)?",
+        "29": "¿Cuál es el desierto más grande del mundo?",
+        "30": "¿Quién escribió 'El Principito'?",
+        "31": "¿En qué año se descubrió América?",
+        "32": "¿Cuál es el país más pequeño del mundo?",
+        "33": "¿Quién fue el primer hombre en viajar al espacio?",
+        "34": "¿En qué año comenzó la Primera Guerra Mundial?",
+        "35": "¿Cuál es el metal más caro del mundo?",
+        "36": "¿Qué famoso director de cine dirigió 'Tiburón' y 'E.T.'?",
+        "37": "¿En qué año se fundó la ciudad de Roma?",
+        "38": "¿Cuál es el animal más venenoso del mundo?",
+        "39": "¿Quién fue el primer astronauta en pisar la luna?",
+        "40": "¿En qué año se hundió el Titanic?",
+        "41": "¿Cuál es el país más pequeño de América Latina?",
+        "42": "¿Quién escribió 'Cien años de soledad'?",
+        "43": "¿En qué año se proclamó la Declaración Universal de los Derechos Humanos?",
+        "44": "¿Cuál es el órgano más grande del cuerpo humano?",
+        "45": "¿Quién pintó 'La persistencia de la memoria'?",
+        "46": "¿En qué año se inauguró el Canal de Suez?",
+        "47": "¿Cuál es el país más grande de Europa?",
+        "48": "¿Quién fue el primer emperador romano?",
+        "49": "¿En qué año se llevó a cabo la Revolución Francesa?",
+        "50": "¿Cuál es el metal más denso?"
     },
     "r": {
         "1": {
@@ -71,6 +111,246 @@
             "2": "Pablo Picasso",
             "3": "Vincent van Gogh",
             "correct": "Leonardo da Vinci"
+        },
+        "11": {
+            "1": "George Orwell",
+            "2": "Aldous Huxley",
+            "3": "J.K. Rowling",
+            "correct": "George Orwell"
+        },
+        "12": {
+            "1": "Elefante",
+            "2": "Jirafa",
+            "3": "Rinoceronte",
+            "correct": "Elefante"
+        },
+        "13": {
+            "1": "1969",
+            "2": "1971",
+            "3": "1961",
+            "correct": "1969"
+        },
+        "14": {
+            "1": "George Washington",
+            "2": "Thomas Jefferson",
+            "3": "Abraham Lincoln",
+            "correct": "George Washington"
+        },
+        "15": {
+            "1": "Hidrógeno",
+            "2": "Helio",
+            "3": "Litio",
+            "correct": "Hidrógeno"
+        },
+        "16": {
+            "1": "Vladímir Lenin",
+            "2": "Joseph Stalin",
+            "3": "León Trotsky",
+            "correct": "Vladímir Lenin"
+        },
+        "17": {
+            "1": "1914",
+            "2": "1904",
+            "3": "1913",
+            "correct": "1914"
+        },
+        "18": {
+            "1": "Monte Everest",
+            "2": "Mont Blanc",
+            "3": "K2",
+            "correct": "Monte Everest"
+        },
+        "19": {
+            "1": "Vincent van Gogh",
+            "2": "Pablo Picasso",
+            "3": "Leonardo da Vinci",
+            "correct": "Vincent van Gogh"
+        },
+        "20": {
+            "1": "China",
+            "2": "India",
+            "3": "Estados Unidos",
+            "correct": "China"
+        },
+        "21": {
+            "1": "Albert Einstein",
+            "2": "Isaac Newton",
+            "3": "Stephen Hawking",
+            "correct": "Albert Einstein"
+        },
+        "22": {
+            "1": "1989",
+            "2": "1991",
+            "3": "1987",
+            "correct": "1989"
+        },
+        "23": {
+            "1": "Rusia",
+            "2": "Canadá",
+            "3": "China",
+            "correct": "Rusia"
+        },
+        "24": {
+            "1": "Sir Edmund Hillary",
+            "2": "Tenzing Norgay",
+            "3": "Reinhold Messner",
+            "correct": "Sir Edmund Hillary"
+        },
+        "25": {
+            "1": "1776",
+            "2": "1789",
+            "3": "1804",
+            "correct": "1776"
+        },
+        "26": {
+            "1": "Peregrino (halcón)",
+            "2": "Leopardo",
+            "3": "Guepardo",
+            "correct": "Peregrino (halcón)"
+        },
+        "27": {
+            "1": "Thomas Edison",
+            "2": "Nikola Tesla",
+            "3": "Alexander Graham Bell",
+            "correct": "Thomas Edison"
+        },
+        "28": {
+            "1": "1945",
+            "2": "1955",
+            "3": "1935",
+            "correct": "1945"
+        },
+        "29": {
+            "1": "Sahara",
+            "2": "Antártida",
+            "3": "Gobi",
+            "correct": "Antártida"
+        },
+        "30": {
+            "1": "Antoine de Saint-Exupéry",
+            "2": "J.R.R. Tolkien",
+            "3": "Mark Twain",
+            "correct": "Antoine de Saint-Exupéry"
+        },
+        "31": {
+            "1": "1492",
+            "2": "1521",
+            "3": "1555",
+            "correct": "1492"
+        },
+        "32": {
+            "1": "Ciudad del Vaticano",
+            "2": "Mónaco",
+            "3": "Nauru",
+            "correct": "Ciudad del Vaticano"
+        },
+        "33": {
+            "1": "Yuri Gagarin",
+            "2": "Neil Armstrong",
+            "3": "Buzz Aldrin",
+            "correct": "Yuri Gagarin"
+        },
+        "34": {
+            "1": "1914",
+            "2": "1917",
+            "3": "1918",
+            "correct": "1914"
+        },
+        "35": {
+            "1": "Rodio",
+            "2": "Oro",
+            "3": "Platino",
+            "correct": "Rodio"
+        },
+        "36": {
+            "1": "Steven Spielberg",
+            "2": "Martin Scorsese",
+            "3": "Francis Ford Coppola",
+            "correct": "Steven Spielberg"
+        },
+        "37": {
+            "1": "753 a.C.",
+            "2": "500 a.C.",
+            "3": "100 a.C.",
+            "correct": "753 a.C."
+        },
+        "38": {
+            "1": "Serpiente de mar",
+            "2": "Rana dorada venenosa",
+            "3": "Araña",
+            "correct": "Rana dorada venenosa"
+        },
+        "39": {
+            "1": "Neil Armstrong",
+            "2": "Buzz Aldrin",
+            "3": "Yuri Gagarin",
+            "correct": "Neil Armstrong"
+        },
+        "40": {
+            "1": "1912",
+            "2": "1914",
+            "3": "1916",
+            "correct": "1912"
+        },
+        "41": {
+            "1": "San Cristóbal y Nieves",
+            "2": "San Marino",
+            "3": "Barbados",
+            "correct": "San Marino"
+        },
+        "42": {
+            "1": "Gabriel García Márquez",
+            "2": "Mario Vargas Llosa",
+            "3": "Pablo Neruda",
+            "correct": "Gabriel García Márquez"
+        },
+        "43": {
+            "1": "1948",
+            "2": "1955",
+            "3": "1961",
+            "correct": "1948"
+        },
+        "44": {
+            "1": "Piel",
+            "2": "Hígado",
+            "3": "Pulmón",
+            "correct": "Piel"
+        },
+        "45": {
+            "1": "Salvador Dalí",
+            "2": "Pablo Picasso",
+            "3": "Vincent van Gogh",
+            "correct": "Salvador Dalí"
+        },
+        "46": {
+            "1": "1869",
+            "2": "1875",
+            "3": "1881",
+            "correct": "1869"
+        },
+        "47": {
+            "1": "Rusia",
+            "2": "Francia",
+            "3": "España",
+            "correct": "Rusia"
+        },
+        "48": {
+            "1": "Augusto",
+            "2": "Julio César",
+            "3": "Nerón",
+            "correct": "Augusto"
+        },
+        "49": {
+            "1": "1789",
+            "2": "1799",
+            "3": "1804",
+            "correct": "1789"
+        },
+        "50": {
+            "1": "Osmio",
+            "2": "Iridio",
+            "3": "Platino",
+            "correct": "Osmio"
         }
     }
 }
