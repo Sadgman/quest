@@ -29,6 +29,18 @@ function newIndexP(){
 function readTitle(){
     return data_question["p"][index_p];
 }
+function searchTitle(title){
+    if(typeof title === "string"){
+        for(let i = 1; i <= Object.keys(data_question["p"]).length; i++){
+            if(data_question["p"][i] == title){
+                index_p = i;
+                return true;
+            }
+        }
+    }else{
+        return console.error("El titulo debe ser un string");
+    }
+}
 /**
  * 
  * @returns devuelve las respuestas de la pregunta
@@ -90,4 +102,12 @@ function correctAnswer(){
 function correctAnswerselected(indexp, index){
     return data_question["r"][indexp][index];
 }
-module.exports = {readTitle, readResponse, correctAnswer, correctAnswerIndex, newIndexP, isCorrect, correctAnswerselected};
+module.exports = {
+    readTitle,
+     readResponse,
+      correctAnswer,
+       correctAnswerIndex,
+        newIndexP, isCorrect,
+         correctAnswerselected,
+            searchTitle
+        };
