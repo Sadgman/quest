@@ -23,8 +23,8 @@ function newIndexP(){
     }
     return index_p;
 }
-function changeIndexResponse() {
-    let obj = data_question["r"][index_p];
+function changeIndexResponse(obj) {
+    obj = data_question["r"][index_p];
     let keys = Object.keys(obj);
     let shuff = lolosevolin.shuffle(keys.filter(key => key !== 'correct'));
     let newObj = {};
@@ -37,11 +37,12 @@ function changeIndexResponse() {
 
     data_question["r"][index_p] = newObj;
 
-    let json = JSON.stringify(data_question, null, 4);
-    fs.writeFileSync(__dirname + "questions.json", json);
+    let json = JSON.stringify(data_question, null, 2);
+    fs.writeFileSync(__dirname + "/questions.json", json);
 
     return newObj;
 }
+changeIndexResponse(data_question["r"][index_p]);
 /**
  * 
  * @returns devuelve el titulo de la pregunta
