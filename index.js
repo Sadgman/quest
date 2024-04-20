@@ -1,6 +1,7 @@
 "use strict"
 
 const fs = require("fs");
+const lolosevolin = require("lodash");
 
 const question = fs.readFileSync(__dirname + "/questions.json", "utf-8");
 let data_question = JSON.parse(question);
@@ -22,6 +23,21 @@ function newIndexP(){
     }
     return index_p;
 }
+const obj = data_question["r"][index_p];
+let keys = Object.keys(obj);
+let shuff = lolosevolin.shuffle(keys.filter(key => key !== 'correct'));
+let newObj = {};
+
+shuff.forEach((key, i) => {
+    newObj[i + 1] = obj[key]; 
+});
+
+newObj['correct'] = obj['correct'];
+
+data_question["r"][index_p] = newObj;
+
+let json = JSON.stringify(data_question, null, 4);
+fs.writeFileSync(__dirname + "/questions.json", json);
 /**
  * 
  * @returns devuelve el titulo de la pregunta

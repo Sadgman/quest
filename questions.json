@@ -299,14 +299,14 @@
             "correct": "San Marino"
         },
         "42": {
-            "1": "Gabriel García Márquez",
+            "1": "Pablo Neruda",
             "2": "Mario Vargas Llosa",
-            "3": "Pablo Neruda",
+            "3": "Gabriel García Márquez",
             "correct": "Gabriel García Márquez"
         },
         "43": {
-            "1": "1948",
-            "2": "1955",
+            "1": "1955",
+            "2": "1948",
             "3": "1961",
             "correct": "1948"
         },
