@@ -66,8 +66,8 @@
         },
         "3": {
             "1": "Bill Gates",
-            "2": "Charles Babbage",
-            "3": "Steve Jobs",
+            "2": "Steve Jobs",
+            "3": "Charles Babbage",
             "correct": "Charles Babbage"
         },
         "4": {
@@ -173,15 +173,15 @@
             "correct": "China"
         },
         "21": {
-            "1": "Albert Einstein",
-            "2": "Isaac Newton",
-            "3": "Stephen Hawking",
+            "1": "Isaac Newton",
+            "2": "Stephen Hawking",
+            "3": "Albert Einstein",
             "correct": "Albert Einstein"
         },
         "22": {
-            "1": "1989",
-            "2": "1991",
-            "3": "1987",
+            "1": "1991",
+            "2": "1987",
+            "3": "1989",
             "correct": "1989"
         },
         "23": {
@@ -228,8 +228,8 @@
         },
         "30": {
             "1": "Antoine de Saint-Exupéry",
-            "2": "J.R.R. Tolkien",
-            "3": "Mark Twain",
+            "2": "Mark Twain",
+            "3": "J.R.R. Tolkien",
             "correct": "Antoine de Saint-Exupéry"
         },
         "31": {
@@ -318,8 +318,8 @@
         },
         "45": {
             "1": "Salvador Dalí",
-            "2": "Pablo Picasso",
-            "3": "Vincent van Gogh",
+            "2": "Vincent van Gogh",
+            "3": "Pablo Picasso",
             "correct": "Salvador Dalí"
         },
         "46": {

@@ -23,21 +23,25 @@ function newIndexP(){
     }
     return index_p;
 }
-const obj = data_question["r"][index_p];
-let keys = Object.keys(obj);
-let shuff = lolosevolin.shuffle(keys.filter(key => key !== 'correct'));
-let newObj = {};
+function changeIndexResponse() {
+    let obj = data_question["r"][index_p];
+    let keys = Object.keys(obj);
+    let shuff = lolosevolin.shuffle(keys.filter(key => key !== 'correct'));
+    let newObj = {};
 
-shuff.forEach((key, i) => {
-    newObj[i + 1] = obj[key]; 
-});
+    shuff.forEach((key, i) => {
+        newObj[i + 1] = obj[key]; 
+    });
 
-newObj['correct'] = obj['correct'];
+    newObj['correct'] = obj['correct'];
 
-data_question["r"][index_p] = newObj;
+    data_question["r"][index_p] = newObj;
 
-let json = JSON.stringify(data_question, null, 4);
-fs.writeFileSync(__dirname + "/questions.json", json);
+    let json = JSON.stringify(data_question, null, 4);
+    fs.writeFileSync(__dirname + "questions.json", json);
+
+    return newObj;
+}
 /**
  * 
  * @returns devuelve el titulo de la pregunta
@@ -125,5 +129,6 @@ module.exports = {
        correctAnswerIndex,
         newIndexP, isCorrect,
          correctAnswerselected,
-            searchTitle
+            searchTitle,
+            changeIndexResponse
         };
