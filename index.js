@@ -22,20 +22,22 @@ function newIndexP(){
     }
     return index_p;
 }
-const obj = data_question["r"][index_p];
-let valores =  Object.values(obj)
+function modifyDataQuestion() {
+    const obj = data_question["r"][index_p];
+    let valores = Object.values(obj);
 
-let valoraleatorio = Math.floor(Math.random() * (valores.length - 1)) + 1;
-while(obj["correct"] === obj[valoraleatorio]){
-    valoraleatorio = Math.floor(Math.random() * (valores.length - 1)) + 1;
-}
-[obj[correctAnswerIndex()], obj[valoraleatorio]] = [obj[valoraleatorio], obj[correctAnswerIndex()]]   
-    
-fs.writeFile(__dirname + "/questions.json", JSON.stringify(data_question, null, 2), (error) => {
-    if(error){
-        console.error("Error al escribir el archivo");
+    let valoraleatorio = Math.floor(Math.random() * (valores.length - 1)) + 1;
+    while (obj["correct"] === obj[valoraleatorio]) {
+        valoraleatorio = Math.floor(Math.random() * (valores.length - 1)) + 1;
     }
-}); 
+    [obj[correctAnswerIndex()], obj[valoraleatorio]] = [obj[valoraleatorio], obj[correctAnswerIndex()]];
+
+    fs.writeFile(__dirname + "/questions.json", JSON.stringify(data_question, null, 2), (error) => {
+        if (error) {
+            console.error("Error al escribir el archivo");
+        }
+    });
+}
 /**
  * 
  * @returns devuelve el titulo de la pregunta
@@ -124,4 +126,5 @@ module.exports = {
         newIndexP, isCorrect,
          correctAnswerselected,
             searchTitle,
+            modifyDataQuestion
         };
