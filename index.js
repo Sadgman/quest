@@ -122,6 +122,5 @@ module.exports = {
        correctAnswerIndex,
         newIndexP, isCorrect,
          correctAnswerselected,
-            searchTitle,
-            modifyDataQuestion
+            searchTitle
         };
