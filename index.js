@@ -1,7 +1,6 @@
 "use strict"
 
 const fs = require("fs");
-const lolosevolin = require("lodash");
 
 const question = fs.readFileSync(__dirname + "/questions.json", "utf-8");
 let data_question = JSON.parse(question);
@@ -23,26 +22,16 @@ function newIndexP(){
     }
     return index_p;
 }
-function changeIndexResponse(obj) {
-    obj = data_question["r"][index_p];
-    let keys = Object.keys(obj);
-    let shuff = lolosevolin.shuffle(keys.filter(key => key !== 'correct'));
-    let newObj = {};
+const obj = data_question["r"][index_p];
+let valores =  Object.values(obj)
 
-    shuff.forEach((key, i) => {
-        newObj[i + 1] = obj[key]; 
-    });
-
-    newObj['correct'] = obj['correct'];
-
-    data_question["r"][index_p] = newObj;
-
-    let json = JSON.stringify(data_question, null, 2);
-    fs.writeFileSync(__dirname + "/questions.json", json);
-
-    return newObj;
+let valoraleatorio = Math.floor(Math.random() * (valores.length - 1)) + 1;
+while(obj["correct"] === obj[valoraleatorio]){
+    valoraleatorio = Math.floor(Math.random() * (valores.length - 1)) + 1;
 }
-changeIndexResponse(data_question["r"][index_p]);
+[obj[correctAnswerIndex()], obj[valoraleatorio]] = [obj[valoraleatorio], obj[correctAnswerIndex()]]   
+    
+fs.writeFileSync(__dirname + "/questions.json", JSON.stringify(data_question, null, 2)); 
 /**
  * 
  * @returns devuelve el titulo de la pregunta
@@ -131,5 +120,4 @@ module.exports = {
         newIndexP, isCorrect,
          correctAnswerselected,
             searchTitle,
-            changeIndexResponse
         };
