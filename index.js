@@ -31,7 +31,11 @@ while(obj["correct"] === obj[valoraleatorio]){
 }
 [obj[correctAnswerIndex()], obj[valoraleatorio]] = [obj[valoraleatorio], obj[correctAnswerIndex()]]   
     
-fs.writeFileSync(__dirname + "/questions.json", JSON.stringify(data_question, null, 2)); 
+fs.writeFile(__dirname + "/questions.json", JSON.stringify(data_question, null, 2), (error) => {
+    if(error){
+        console.error("Error al escribir el archivo");
+    }
+}); 
 /**
  * 
  * @returns devuelve el titulo de la pregunta
