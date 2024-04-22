@@ -20,12 +20,8 @@ function newIndexP(){
     if(ListOfQuestResp.length === 50){
         ListOfQuestResp = [];
     }
-    return index_p;
-}
-function modifyDataQuestion() {
     const obj = data_question["r"][index_p];
     let valores = Object.values(obj);
-
     let valoraleatorio = Math.floor(Math.random() * (valores.length - 1)) + 1;
     while (obj["correct"] === obj[valoraleatorio]) {
         valoraleatorio = Math.floor(Math.random() * (valores.length - 1)) + 1;
@@ -37,6 +33,7 @@ function modifyDataQuestion() {
             console.error("Error al escribir el archivo");
         }
     });
+    return index_p;
 }
 /**
  * 
