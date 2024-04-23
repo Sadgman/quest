@@ -49,7 +49,57 @@
     "47": "¿Cuál es el país más grande de Europa?",
     "48": "¿Quién fue el primer emperador romano?",
     "49": "¿En qué año se llevó a cabo la Revolución Francesa?",
-    "50": "¿Cuál es el metal más denso?"
+    "50": "¿Cuál es el metal más denso?",
+    "51": "¿Cuál es la capital de Brasil?",
+    "52": "¿Quién escribió 'Don Quijote de la Mancha'?",
+    "53": "¿En qué año se produjo la Revolución Industrial?",
+    "54": "¿Cuál es el río más largo de África?",
+    "55": "¿Quién fue el primer hombre en orbitar la Tierra?",
+    "56": "¿En qué año se firmó el Tratado de Versalles?",
+    "57": "¿Cuál es el país más pequeño de Asia?",
+    "58": "¿Quién es conocido como el rey del pop?",
+    "59": "¿En qué año se descubrió la penicilina?",
+    "60": "¿Cuál es el metal más abundante en el núcleo de la Tierra?",
+    "61": "¿Quién escribió 'El retrato de Dorian Gray'?",
+    "62": "¿Cuál es la montaña más alta de África?",
+    "63": "¿Quién pintó 'La última cena'?",
+    "64": "¿En qué año se llevó a cabo la Revolución Mexicana?",
+    "65": "¿Cuál es el país más poblado de África?",
+    "66": "¿Qué famoso físico desarrolló la teoría de la relatividad general?",
+    "67": "¿En qué año se produjo el descubrimiento de América?",
+    "68": "¿Cuál es el animal más largo del mundo?",
+    "69": "¿Quién escribió 'Orgullo y prejuicio'?",
+    "70": "¿En qué año comenzó la Guerra Civil Española?",
+    "71": "¿Cuál es el país más grande de América del Sur?",
+    "72": "¿Quién fue el primer presidente de México?",
+    "73": "¿En qué año se fundó la ciudad de Nueva York?",
+    "74": "¿Cuál es el gas más abundante en la atmósfera terrestre?",
+    "75": "¿Quién es conocido como el padre del psicoanálisis?",
+    "76": "¿En qué año se produjo el hundimiento del Titanic?",
+    "77": "¿Cuál es el animal más pesado del mundo?",
+    "78": "¿Quién pintó 'La creación de Adán'?",
+    "79": "¿En qué año se fundó la ciudad de Buenos Aires?",
+    "80": "¿Cuál es el país más pequeño de África?",
+    "81": "¿Quién escribió 'Las aventuras de Tom Sawyer'?",
+    "82": "¿En qué año se llevó a cabo la Revolución Cubana?",
+    "83": "¿Cuál es la flor más grande del mundo?",
+    "84": "¿Quién fue el primer presidente de la República Popular China?",
+    "85": "¿En qué año se produjo la Caída de Constantinopla?",
+    "86": "¿Cuál es el país más grande de América Central?",
+    "87": "¿Quién escribió 'Matar a un ruiseñor'?",
+    "88": "¿En qué año se fundó la ciudad de Londres?",
+    "89": "¿Cuál es el elemento químico más pesado que se encuentra de forma natural?",
+    "90": "¿Quién fue el primer hombre en volar sin motor?",
+    "91": "¿En qué año comenzó la Guerra Fría?",
+    "92": "¿Cuál es el desierto más árido del mundo?",
+    "93": "¿Quién pintó 'Guernica'?",
+    "94": "¿En qué año se proclamó la independencia de Estados Unidos?",
+    "95": "¿Cuál es el animal más fuerte del mundo?",
+    "96": "¿Quién escribió 'Los miserables'?",
+    "97": "¿En qué año se produjo la unificación de Italia?",
+    "98": "¿Cuál es el país más pequeño de Europa?",
+    "99": "¿Quién fue el primer astronauta en dar una vuelta a la Luna?",
+    "100": "¿En qué año se inauguró el metro de París?"
   },
   "r": {
     "1": {
@@ -170,7 +220,7 @@
       "1": "China",
       "2": "India",
       "3": "Estados Unidos",
-      "correct": "China"
+      "correct": "India"
     },
     "21": {
       "1": "Isaac Newton",
@@ -211,7 +261,9 @@
     "27": {
       "1": "Thomas Edison",
       "2": "Nikola Tesla",
-      "3": "Alexander Graham Bell",
+      "3":
+
+ "Alexander Graham Bell",
       "correct": "Thomas Edison"
     },
     "28": {
@@ -351,6 +403,306 @@
       "2": "Iridio",
       "3": "Platino",
       "correct": "Osmio"
+    },
+    "51": {
+      "1": "Brasilia",
+      "2": "Río de Janeiro",
+      "3": "Sao Paulo",
+      "correct": "Brasilia"
+    },
+    "52": {
+      "1": "Miguel de Cervantes",
+      "2": "Gabriel García Márquez",
+      "3": "William Shakespeare",
+      "correct": "Miguel de Cervantes"
+    },
+    "53": {
+      "1": "1760",
+      "2": "1784",
+      "3": "1801",
+      "correct": "1760"
+    },
+    "54": {
+      "1": "Nilo",
+      "2": "Congo",
+      "3": "Níger",
+      "correct": "Nilo"
+    },
+    "55": {
+      "1": "Yuri Gagarin",
+      "2": "Neil Armstrong",
+      "3": "John Glenn",
+      "correct": "Yuri Gagarin"
+    },
+    "56": {
+      "1": "1919",
+      "2": "1918",
+      "3": "1920",
+      "correct": "1919"
+    },
+    "57": {
+      "1": "Maldivas",
+      "2": "Singapur",
+      "3": "Malasia",
+      "correct": "Singapur"
+    },
+    "58": {
+      "1": "Michael Jackson",
+      "2": "Elvis Presley",
+      "3": "Bob Dylan",
+      "correct": "Michael Jackson"
+    },
+    "59": {
+      "1": "1928",
+      "2": "1929",
+      "3": "1926",
+      "correct": "1928"
+    },
+    "60": {
+      "1": "Hierro",
+      "2": "Níquel",
+      "3": "Oro",
+      "correct": "Hierro"
+    },
+    "61": {
+      "1": "Oscar Wilde",
+      "2": "Emily Brontë",
+      "3": "Herman Melville",
+      "correct": "Oscar Wilde"
+    },
+    "62": {
+      "1": "Kilimanjaro",
+      "2": "Monte Everest",
+      "3": "Monte Elbrús",
+      "correct": "Kilimanjaro"
+    },
+    "63": {
+      "1": "Leonardo da Vinci",
+      "2": "Pablo Picasso",
+      "3": "Leonardo Fibonacci",
+      "correct": "Leonardo da Vinci"
+    },
+    "64": {
+      "1": "1910",
+      "2": "1915",
+      "3": "1920",
+      "correct": "1910"
+    },
+    "65": {
+      "1": "Nigeria",
+      "2": "Egipto",
+      "3": "Etiopía",
+      "correct": "Nigeria"
+    },
+    "66": {
+      "1": "Albert Einstein",
+      "2": "Isaac Newton",
+      "3": "Stephen Hawking",
+      "correct": "Albert Einstein"
+    },
+    "67": {
+      "1": "1492",
+      "2": "1500",
+      "3": "1482",
+      "correct": "1492"
+    },
+    "68": {
+      "1": "Anaconda",
+      "2": "Cachalote",
+      "3": "Calamar gigante",
+      "correct": "Calamar gigante"
+    },
+    "69": {
+      "1": "Jane Austen",
+      "2": "Emily Brontë",
+      "3": "Charlotte Brontë",
+      "correct": "Jane Austen"
+    },
+    "70": {
+      "1": "1936",
+      "2": "1930",
+      "3": "1940",
+      "correct": "1936"
+    },
+    "71": {
+      "1": "Brasil",
+      "2": "Argentina",
+      "3": "Perú",
+      "correct": "Brasil"
+    },
+    "72": {
+      "1": "Benito Juárez",
+      "2": "Emiliano Zapata",
+      "3": "Venustiano Carranza",
+      "correct": "Benito Juárez"
+    },
+    "73": {
+      "1": "1624",
+      "2": "1607",
+      "3": "1640",
+      "correct": "1624"
+    },
+    "74": {
+      "1": "Nitrógeno",
+      "2": "Oxígeno",
+      "3": "Argón",
+      "correct": "Nitrógeno"
+    },
+    "75": {
+      "1": "Sigmund Freud",
+      "2": "Carl Jung",
+      "3": "Ivan Pavlov",
+      "correct": "Sigmund Freud"
+    },
+    "76": {
+      "1": "1912",
+      "2": "1914",
+      "3": "1916",
+      "correct": "1912"
+    },
+    "77": {
+      "1": "Ballena azul",
+      "2": "Elefante",
+      "3": "Jirafa",
+      "correct": "Ballena azul"
+    },
+    "78": {
+      "1": "Leonardo da Vinci",
+      "2": "Miguel Ángel",
+      "3": "Rafael",
+      "correct": "Miguel Ángel"
+    },
+    "79": {
+      "1": "1536",
+      "2": "1580",
+      "3": "1610",
+      "correct": "1536"
+    },
+    "80": {
+      "1": "Santo Tomé y Príncipe",
+      "2": "Seychelles",
+      "3": "Mauricio",
+      "correct": "Seychelles"
+    },
+    "81": {
+      "1": "Mark Twain",
+      "2": "Charles Dickens",
+      "3": "William Faulkner",
+      "correct": "Mark Twain"
+    },
+    "82": {
+      "1": "1952",
+      "2": "1959",
+      "3": "1961",
+      "correct": "1959"
+    },
+    "83": {
+      "1": "Rafflesia arnoldii",
+      "2": "Victoria amazonica",
+      "3": "Amorphophallus titanum",
+      "correct": "Rafflesia arnoldii"
+    },
+    "84": {
+      "1": "Mao Zedong",
+      "2": "Chiang Kai-shek",
+      "3": "Sun Yat-sen",
+      "correct": "Mao Zedong"
+    },
+    "85": {
+      "1": "1453",
+      "2": "1492",
+      "3": "1521",
+      "correct": "1453"
+    },
+    "86": {
+      "1": "Nicaragua",
+      "2": "Honduras",
+      "3": "Costa Rica",
+      "correct": "Nicaragua"
+    },
+    "87": {
+      "1": "Harper Lee",
+      "2": "John Steinbeck",
+      "3": "Ernest Hemingway",
+      "correct": "Harper Lee"
+    },
+    "88": {
+      "1": "43 a.C.",
+      "2": "50 d.C.",
+      "3": "60 d.C.",
+      "correct": "43 a.C."
+    },
+    "89": {
+      "1": "Oganesón",
+      "2": "Livermorio",
+      "3": "Flerovio",
+      "correct": "Oganesón"
+    },
+    "90": {
+      "1": "Orville Wright",
+      "2": "Wilbur Wright",
+      "3": "Amelia Earhart",
+      "correct": "Orville Wright"
+    },
+    "91": {
+      "1": "1947",
+      "2": "1945",
+      "3": "1955",
+      "correct": "1945"
+    },
+    "92": {
+      "1": "Atacama",
+      "2": "Sáhara",
+      "3": "Gobi",
+      "correct": "Atacama"
+    },
+    "93": {
+      "1": "Pablo Picasso",
+      "2": "Diego Rivera",
+      "3": "Frida Kahlo",
+      "correct": "Pablo Picasso"
+    },
+    "94": {
+      "1": "1776",
+      "2": "1789",
+      "3": "1804",
+      "correct": "1776"
+    },
+    "95": {
+      "1": "Escarabajo rinoceronte",
+      "2": "Oso pardo",
+      "3": "Elefante africano",
+      "correct": "Escarabajo rinoceronte"
+    },
+    "96": {
+      "1": "Victor Hugo",
+      "2": "Gustave Flaubert",
+      "3": "Émile Zola",
+      "correct": "Victor Hugo"
+    },
+    "97": {
+      "1": "1861",
+      "2": "1871",
+      "3": "1881",
+      "correct": "1861"
+    },
+    "98": {
+      "1": "Mónaco",
+      "2": "San Marino",
+      "3": "Liechtenstein",
+      "correct": "San Marino"
+    },
+    "99": {
+      "1": "Neil Armstrong",
+      "2": "Yuri Gagarin",
+      "3": "Buzz Aldrin",
+      "correct": "Yuri Gagarin"
+    },
+    "100": {
+      "1": "1870",
+      "2": "1900",
+      "3": "1890",
+      "correct": "1900"
     }
   }
 }
