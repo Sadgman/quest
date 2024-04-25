@@ -13,11 +13,11 @@ function newIndexP(){
      */
     do{
         index_p = Math.floor(Math.random() * Object.keys(data_question["p"]).length) + 1;
-    }while(ListOfQuestResp.slice(-99).includes(index_p));
+    }while(ListOfQuestResp.slice(-119).includes(index_p));
     
     ListOfQuestResp.push(index_p);
     
-    if(ListOfQuestResp.length === 100){
+    if(ListOfQuestResp.length === 120){
         ListOfQuestResp = [];
     }
 
