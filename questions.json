@@ -99,7 +99,27 @@
     "97": "¿En qué año se produjo la unificación de Italia?",
     "98": "¿Cuál es el país más pequeño de Europa?",
     "99": "¿Quién fue el primer astronauta en dar una vuelta a la Luna?",
-    "100": "¿En qué año se inauguró el metro de París?"
+    "100": "¿En qué año se inauguró el metro de París?",
+    "101": "¿Qué representa una matriz de adyacencias en la teoría de grafos?",
+    "102": "¿Qué es un grafo dirigido?",
+    "103": "¿Qué es un grafo no dirigido?",
+    "104": "¿Qué es un grafo ponderado?",
+    "105": "¿Qué es un grafo no ponderado?",
+    "106": "¿Qué es un grafo cíclico?",
+    "107": "¿Qué es un grafo acíclico?",
+    "108": "¿Qué es un grafo conexo?",
+    "109": "¿Qué es un grafo no conexo?",
+    "110": "¿Qué es un grafo completo?",
+    "111": "¿Qué es un grafo bipartito?",
+    "112": "¿Qué es un grafo regular?",
+    "113": "¿Qué es un grafo no regular?",
+    "114": "¿Qué es un grafo simple?",
+    "115": "¿Qué es un grafo no simple?",
+    "116": "¿Qué es un grafo denso?",
+    "117": "¿Qué es un grafo disperso?",
+    "118": "¿Cuál es una aplicación importante de la matriz de adyacencias en grafos dirigidos?",
+    "119": "¿Cuál es una ventaja de utilizar una matriz de adyacencias para representar un grafo?",
+    "120": "¿Qué tipo de grafo se considera conexo si hay un camino entre cada par de nodos?"
   },
   "r": {
     "1": {
@@ -703,6 +723,126 @@
       "2": "1900",
       "3": "1890",
       "correct": "1900"
+    },
+    "101": {
+      "1": "La relación entre nodos y aristas",
+      "2": "La conectividad directa entre los nodos.",
+      "3": "El grado de cada nodo en un grafo no dirigido.",
+      "correct": "La relación entre nodos y aristas"
+    },
+    "102": {
+      "1": "Un grafo que tiene aristas con dirección.",
+      "2": "Un grafo que tiene nodos con dirección.",
+      "3": "Un grafo que tiene nodos y aristas con dirección.",
+      "correct": "Un grafo que tiene aristas con dirección."
+    },
+    "103": {
+      "1": "Un grafo que tiene aristas con dirección.",
+      "2": "Un grafo que tiene nodos con dirección.",
+      "3": "Un grafo que tiene nodos y aristas con dirección.",
+      "correct": "Un grafo que tiene aristas con dirección."
+    },
+    "104": {
+      "1": "Un grafo que tiene aristas con peso.",
+      "2": "Un grafo que tiene nodos con peso.",
+      "3": "Un grafo que tiene nodos y aristas con peso.",
+      "correct": "Un grafo que tiene aristas con peso."
+    },
+    "105": {
+      "1": "Un grafo que tiene aristas con peso.",
+      "2": "Un grafo que tiene nodos con peso.",
+      "3": "Un grafo que tiene nodos y aristas con peso.",
+      "correct": "Un grafo que tiene nodos y aristas con peso."
+    },
+    "106": {
+      "1": "Un grafo que tiene ciclos.",
+      "2": "Un grafo que no tiene ciclos.",
+      "3": "Un grafo que tiene nodos con ciclos.",
+      "correct": "Un grafo que tiene ciclos."
+    },
+    "107": {
+      "1": "Un grafo que tiene ciclos.",
+      "2": "Un grafo que no tiene ciclos.",
+      "3": "Un grafo que tiene nodos con ciclos.",
+      "correct": "Un grafo que no tiene ciclos."
+    },
+    "108": {
+      "1": "Un grafo que tiene todos sus nodos conectados.",
+      "2": "Un grafo que tiene todos sus nodos desconectados.",
+      "3": "Un grafo que tiene todos sus nodos aislados.",
+      "correct": "Un grafo que tiene todos sus nodos conectados."
+    },
+    "109": {
+      "1": "Un grafo que tiene todos sus nodos conectados.",
+      "2": "Un grafo que tiene todos sus nodos desconectados.",
+      "3": "Un grafo que tiene todos sus nodos aislados.",
+      "correct": "Un grafo que tiene todos sus nodos desconectados."
+    },
+    "110": {
+      "1": "Un grafo que tiene todos sus nodos conectados.",
+      "2": "Un grafo que tiene todos sus nodos desconectados.",
+      "3": "Un grafo que tiene todos sus nodos aislados.",
+      "correct": "Un grafo que tiene todos sus nodos conectados."
+    },
+    "111": {
+      "1": "Un grafo que tiene dos conjuntos de nodos.",
+      "2": "Un grafo que tiene dos conjuntos de aristas.",
+      "3": "Un grafo que tiene dos conjuntos de nodos y aristas.",
+      "correct": "Un grafo que tiene dos conjuntos de nodos."
+    },
+    "112": {
+      "1": "Un grafo que tiene todos sus nodos con el mismo grado.",
+      "2": "Un grafo que tiene todos sus nodos con diferente grado.",
+      "3": "Un grafo que tiene todos sus nodos con el mismo peso.",
+      "correct": "Un grafo que tiene todos sus nodos con el mismo grado."
+    },
+    "113": {
+      "1": "Un grafo que tiene todos sus nodos con el mismo grado.",
+      "2": "Un grafo que tiene todos sus nodos con diferente grado.",
+      "3": "Un grafo que tiene todos sus nodos con el mismo peso.",
+      "correct": "Un grafo que tiene todos sus nodos con diferente grado."
+    },
+    "114": {
+      "1": "Un grafo que no tiene aristas múltiples ni bucles.",
+      "2": "Un grafo que tiene aristas múltiples y bucles.",
+      "3": "Un grafo que tiene nodos múltiples y bucles.",
+      "correct": "Un grafo que no tiene aristas múltiples ni bucles."
+    },
+    "115": {
+      "1": "Un grafo que no tiene aristas múltiples ni bucles.",
+      "2": "Un grafo que tiene aristas múltiples y bucles.",
+      "3": "Un grafo que tiene nodos múltiples y bucles.",
+      "correct": "Un grafo que tiene aristas múltiples y bucles."
+    },
+    "116": {
+      "1": "Un grafo que tiene muchos nodos y aristas.",
+      "2": "Un grafo que tiene pocos nodos y aristas.",
+      "3": "Un grafo que tiene todos sus nodos conectados.",
+      "correct": "Un grafo que tiene muchos nodos y aristas."
+    },
+    "117": {
+      "1": "Un grafo que tiene muchos nodos y aristas.",
+      "2": "Un grafo que tiene pocos nodos y aristas.",
+      "3": "Un grafo que tiene todos sus nodos conectados.",
+      "correct": "Un grafo que tiene pocos nodos y aristas."
+    },
+    "118":{
+      "1": "Análisis de complejidad de algoritmos.",
+      "2": "Representación compacta de grafos.",
+      "3": "Identificación de caminos más cortos.",
+      "correct": "Identificación de caminos más cortos."
+    },
+    "119":{
+      "1": "Es adecuada para grafos no conexos",
+      "2": " Permite operaciones eficientes como agregar o eliminar nodos.",
+      "3": " Es más compacta que otras representaciones como listas de adyacencia.",
+      "correct": "Permite operaciones eficientes como agregar o eliminar nodos."
+    },
+    "120":{
+      "1": "Grafo conexo",
+      "2": "Grafo de Euler.",
+      "3": "Grafo Hamiltoniano.",
+      "correct": "Grafo conexo"
     }
   }
 }
