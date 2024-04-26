@@ -834,8 +834,8 @@
     },
     "119":{
       "1": "Es adecuada para grafos no conexos",
-      "2": " Permite operaciones eficientes como agregar o eliminar nodos.",
-      "3": " Es más compacta que otras representaciones como listas de adyacencia.",
+      "2": "Permite operaciones eficientes como agregar o eliminar nodos.",
+      "3": "Es más compacta que otras representaciones como listas de adyacencia.",
       "correct": "Permite operaciones eficientes como agregar o eliminar nodos."
     },
     "120":{
