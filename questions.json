@@ -119,7 +119,27 @@
     "117": "¿Qué es un grafo disperso?",
     "118": "¿Cuál es una aplicación importante de la matriz de adyacencias en grafos dirigidos?",
     "119": "¿Cuál es una ventaja de utilizar una matriz de adyacencias para representar un grafo?",
-    "120": "¿Qué tipo de grafo se considera conexo si hay un camino entre cada par de nodos?"
+    "120": "¿Qué tipo de grafo se considera conexo si hay un camino entre cada par de nodos?",
+    "121": "¿Quién fue el primer presidente de El Salvador?",
+    "122": "¿En qué año se fundó la ciudad de San Salvador?",
+    "123": "¿Cuál es el país más pequeño de América Central?",
+    "124": "¿Quién fue el primer presidente de Guatemala?",
+    "125": "¿Cuál fue el nombre del acuerdo que puso fin a la guerra civil en El Salvador en 1992?",
+    "126": "¿En qué año se firmó el acuerdo de paz en El Salvador?",
+    "127": "¿Qué presidente de El Salvador fue conocido como el 'Tigre'?",
+    "128": "¿Cuál fue el evento que desencadenó la guerra civil en El Salvador en 1980?",
+    "129": "¿En qué año se llevó a cabo la independencia de El Salvador?",
+    "130": "¿Quién fue el primer presidente de Honduras?",
+    "131": "¿En qué año se fundó la ciudad de Tegucigalpa?",
+    "132": "¿Quién fue el primer presidente de Argentina?",
+    "133": "¿En qué año se fundó la ciudad de Buenos Aires?",
+    "134": "¿Cuál es el país más grande de América del Sur?",
+    "135": "¿Qué año marcó la declaración de independencia de Argentina?",
+    "136": "¿Quién fue el líder militar que encabezó la Revolución de Mayo de 1810 en Argentina?",
+    "137": "¿Qué movimiento político fue liderado por Eva Perón en Argentina?",
+    "138": "¿Cuál fue el período conocido como la 'Década Infame' en Argentina?",
+    "139": "¿En qué año se llevó a cabo la Revolución de Mayo en Argentina?",
+    "140": "¿Quién fue el primer presidente de Bolivia?"
   },
   "r": {
     "1": {
@@ -843,6 +863,126 @@
       "2": "Grafo de Euler.",
       "3": "Grafo Hamiltoniano.",
       "correct": "Grafo conexo"
+    },
+    "121": {
+      "1": "Manuel José Arce",
+      "2": "José Matías Delgado",
+      "3": "Felipe Codallos",
+      "correct": "Manuel José Arce"
+    },
+    "122": {
+      "1": "1525",
+      "2": "1528",
+      "3": "1530",
+      "correct": "1528"
+    },
+    "123": {
+      "1": "El Salvador",
+      "2": "Honduras",
+      "3": "Costa Rica",
+      "correct": "El Salvador"
+    },
+    "124": {
+      "1": "Mariano Rivera Paz",
+      "2": "Rafael Carrera",
+      "3": "Justo Rufino Barrios",
+      "correct": "Mariano Rivera Paz"
+    },
+    "125": {
+      "1": "Acuerdo de Paz de Chapultepec",
+      "2": "Tratado de Paz de San Salvador",
+      "3": "Pacto de San José",
+      "correct": "Acuerdo de Paz de Chapultepec"
+    },
+    "126": {
+      "1": "1992",
+      "2": "1993",
+      "3": "1994",
+      "correct": "1992"
+    },
+    "127": {
+      "1": "José Napoleón Duarte",
+      "2": "Alfredo Cristiani",
+      "3": "Armando Calderón Sol",
+      "correct": "Alfredo Cristiani"
+    },
+    "128": {
+      "1": "Asesinato de Monseñor Romero",
+      "2": "La caída del gobierno militar",
+      "3": "Masacre de El Mozote",
+      "correct": "Asesinato de Monseñor Romero"
+    },
+    "129": {
+      "1": "1821",
+      "2": "1823",
+      "3": "1825",
+      "correct": "1821"
+    },
+    "130": {
+      "1": "Francisco Morazán",
+      "2": "José Cecilio del Valle",
+      "3": "Dionisio de Herrera",
+      "correct": "José Cecilio del Valle"
+    },
+    "131": {
+      "1": "1578",
+      "2": "1580",
+      "3": "1582",
+      "correct": "1578"
+    },
+    "132": {
+      "1": "Bernardino Rivadavia",
+      "2": "Juan Manuel de Rosas",
+      "3": "Justo José de Urquiza",
+      "correct": "Bernardino Rivadavia"
+    },
+    "133": {
+      "1": "1536",
+      "2": "1580",
+      "3": "1610",
+      "correct": "1536"
+    },
+    "134": {
+      "1": "Brasil",
+      "2": "Argentina",
+      "3": "Perú",
+      "correct": "Brasil"
+    },
+    "135": {
+      "1": "1810",
+      "2": "1816",
+      "3": "1820",
+      "correct": "1816"
+    },
+    "136": {
+      "1": "Miguel de Azcuénaga",
+      "2": "Manuel Belgrano",
+      "3": "Cornelio Saavedra",
+      "correct": "Cornelio Saavedra"
+    },
+    "137": {
+      "1": "Peronismo",
+      "2": "Radicalismo",
+      "3": "Socialismo",
+      "correct": "Peronismo"
+    },
+    "138": {
+      "1": "1910-1920",
+      "2": "1930-1943",
+      "3": "1946-1955",
+      "correct": "1930-1943"
+    },
+    "139": {
+      "1": "1810",
+      "2": "1816",
+      "3": "1820",
+      "correct": "1810"
+    },
+    "140": {
+      "1": "Simón Bolívar",
+      "2": "Antonio José de Sucre",
+      "3": "Andrés de Santa Cruz",
+      "correct": "Simón Bolívar"
     }
   }
 }
